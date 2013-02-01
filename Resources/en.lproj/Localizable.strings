@@ -1,0 +1,5 @@
+/* Name of image file when dragged out */
+"image.png" = "image.png";
+
+/* Instructional placeholder text */
+"Drop an image from the Finder here" = "Drop an image from the Finder here";
