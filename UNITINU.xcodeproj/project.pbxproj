@@ -15,7 +15,6 @@
 		F1647950148EA02A00C1B49A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F164794A148EA02A00C1B49A /* Localizable.strings */; };
 		F1647951148EA02A00C1B49A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F164794C148EA02A00C1B49A /* MainMenu.xib */; };
 		F1D22923148EBC83000F20E9 /* UNITINU.icns in Resources */ = {isa = PBXBuildFile; fileRef = F1D22922148EBC83000F20E9 /* UNITINU.icns */; };
-		F1F457F7148EBB67002EF1A9 /* UNITINU.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = F1F457F6148EBB67002EF1A9 /* UNITINU.entitlements */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +31,6 @@
 		F164794D148EA02A00C1B49A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		F164794E148EA02A00C1B49A /* UNITINU-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "UNITINU-Info.plist"; sourceTree = "<group>"; };
 		F1D22922148EBC83000F20E9 /* UNITINU.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = UNITINU.icns; path = ../UNITINU.icns; sourceTree = "<group>"; };
-		F1F457F6148EBB67002EF1A9 /* UNITINU.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = UNITINU.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +102,6 @@
 				F164794C148EA02A00C1B49A /* MainMenu.xib */,
 				F1D22922148EBC83000F20E9 /* UNITINU.icns */,
 				F164794E148EA02A00C1B49A /* UNITINU-Info.plist */,
-				F1F457F6148EBB67002EF1A9 /* UNITINU.entitlements */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -163,7 +160,6 @@
 				F164794F148EA02A00C1B49A /* InfoPlist.strings in Resources */,
 				F1647950148EA02A00C1B49A /* Localizable.strings in Resources */,
 				F1647951148EA02A00C1B49A /* MainMenu.xib in Resources */,
-				F1F457F7148EBB67002EF1A9 /* UNITINU.entitlements in Resources */,
 				F1D22923148EBC83000F20E9 /* UNITINU.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,7 +268,7 @@
 		F1647937148E9FE600C1B49A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = Resources/UNITINU.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Source/UNITINU-Prefix.pch";
